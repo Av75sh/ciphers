@@ -1,5 +1,5 @@
 export const API_URL = import.meta.env.PROD 
-  ? 'https://ciphers-1.onrender.com/'  
+  ? 'https://ciphers-1.onrender.com/api'  
   : 'http://localhost:5000/api';
 
 export const DEFAULT_CODE = `function App() {
